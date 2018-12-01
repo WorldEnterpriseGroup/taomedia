@@ -7,7 +7,7 @@ $(document).ready(function() {
 	}*/
 	var fileref = document.createElement('script');	
 	fileref.setAttribute("type","text/javascript");
-	fileref.setAttribute("src", "http://search.twitter.com/search.json?q=&tag=twitter&lang=en&callback=TweetTick&rpp=1");
+	fileref.setAttribute("src", "https://search.twitter.com/search.json?q=&tag=twitter&lang=en&callback=TweetTick&rpp=1");
 	document.getElementsByTagName("head")[0].appendChild(fileref);
 });
  
@@ -15,7 +15,7 @@ function TweetTick(ob) {
 	var container=$('#parallax2 .twtr');
 	container.html('');	
 	$(ob.results).each(function(el) {
-	var str = '<p class="twitter-author"><a href="http://twitter.com/'+this.from_user+'" target="_blank">@'+this.from_user+'</a></p><p class="tweet">' + formatTwitString(this.text) + '</p><p class="twitter-date">'+relativeTime(this.created_at)+'</p>';
+	var str = '<p class="twitter-author"><a href="https://twitter.com/'+this.from_user+'" target="_blank">@'+this.from_user+'</a></p><p class="tweet">' + formatTwitString(this.text) + '</p><p class="twitter-date">'+relativeTime(this.created_at)+'</p>';
 	container.append(str);	
 	});	
 }
@@ -23,8 +23,8 @@ function TweetTick(ob) {
 function formatTwitString(str) {
 	str=' '+str;
 	str = str.replace(/((ftp|https?):\/\/([-\w\.]+)+(:\d+)?(\/([\w/_\.]*(\?\S+)?)?)?)/gm,'<a href="$1" target="_blank">$1</a>');
-	str = str.replace(/([^\w])\@([\w\-]+)/gm,'$1<a href="http://twitter.com/$2" target="_blank">@$2</a>');
-	str = str.replace(/([^\w])\#([\w\-]+)/gm,'$1<a href="http://twitter.com/search?q=%23$2" target="_blank">#$2</a>');
+	str = str.replace(/([^\w])\@([\w\-]+)/gm,'$1<a href="https://twitter.com/$2" target="_blank">@$2</a>');
+	str = str.replace(/([^\w])\#([\w\-]+)/gm,'$1<a href="https://twitter.com/search?q=%23$2" target="_blank">#$2</a>');
 	return str;
 }
  
