@@ -11,6 +11,8 @@ Responsive elements
                 .bg1, .bg3 { background-size: 150%;}
                 .bg2 { background-size: 1280px;}
                 #contact { background-size: 1437px; }
+                
+                .links { padding-top: 11px;}
 } 
 
 @media only screen and (width: 1024px) {
@@ -44,7 +46,8 @@ Responsive elements
                 .column .img-wrp { margin: 40px 0px 14px; }	
                 #prevslide{ right:55px; background:url('../images/back-15.png'); }
 				#nextslide{ right:30px; background:url('../images/forward-15.png'); }
-				#contact { background-size: 720px; }
+                #contact { background-size: 720px; }
+                .logo2 {padding-top: 5px;}
 	
 }
 	

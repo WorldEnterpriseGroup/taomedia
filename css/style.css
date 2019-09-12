@@ -847,3 +847,9 @@ span.color-text {
 	.info-block a.button { position: inherit; margin-top: 20px; }
 	.ib-text { padding-right: 0; }
 }
+
+.logo2 {
+	float:left;
+	 padding: 17px 12px 0 0;
+	 height: 17px; 
+}
