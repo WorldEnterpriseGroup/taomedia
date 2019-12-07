@@ -39,7 +39,7 @@ Responsive elements
                 nav { height: 30px; }
                 #homepage { margin-bottom: -30px; }
                 .slider-text  { bottom: 50px; min-height: 80px; }
-                #about, #culture, #services, #portfolio { padding-top: 32px; padding-bottom: 40px; }
+                #about, #culture, #services, #branding { padding-top: 32px; padding-bottom: 40px; }
                 #prevslide, #nextslide{ position:absolute; height:15px; width:15px; top:50px; margin-top:-21px; opacity:0.6; }
                 #culture h4 { padding-top: 27px; }
                 .bg1, .bg2, .bg3 { background-size: 1000px; }

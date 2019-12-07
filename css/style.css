@@ -506,7 +506,7 @@ Parallax
 Content
 --------------------------------------------------------*/
 
-#about, #culture, #services, #portfolio {
+#about, #culture, #services, #branding {
 	padding-top: 64px;
 	padding-bottom: 80px;
 	position: relative;
@@ -684,9 +684,9 @@ Content
 	}
 	
 	
-	/*Portfolio------------------------------------------*/
+	/*Branding------------------------------------------*/
 	
-	#portfolio h1  {
+	#branding h1  {
 		margin-bottom: 34px;
 	}
 	
