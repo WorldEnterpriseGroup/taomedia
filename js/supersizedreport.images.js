@@ -31,7 +31,7 @@
 					thumb_links				:	0,			// Individual thumb links for each slide
 					thumbnail_navigation    :   0,			// Thumbnail navigation
 					slides 					:  	[			// Slideshow Images
-														{image : './images/slider/image1.jpg', title : 'Marketing Reports <div class="slidedescription">Master storytellers and influencers, we are the solution brands seek when they want to make a difference in the world. We consult and create for top brands in digital branding, event strategies, and social engagement. Our diverse skills allow us to oversee entire marketing departments in-house or as a partnered agency for hire.</div>', thumb : '', url : 'https://themes.tvda.eu/'},
+														{image : './images/slider/image5.jpg', title : 'Ideation <div class="slidedescription">We are master storytellers and influencers who create impact and results with creativity that is disruptive. Our ideation house creates pitch decks, RFPs, business strategies, roadmaps, and full brand identities with over 25 years experience in the industry with staff in New York City and Asia. Our diverse team allow us to oversee entire marketing departments in-house or as a partnered agency for hire.</div>', thumb : '', url : 'https://c.taomedia.org/'},
 													
 												],
 												
